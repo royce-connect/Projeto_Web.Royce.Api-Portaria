@@ -1,10 +1,9 @@
-const express = require('express');
+const express = require("express");
 const app = express();
-const rota = require('./routes');
+const rota = require("./routes");
 
-
-app.use(express.json({limit: '20mb'}));
+app.use(express.json({ limit: "20mb" }));
 
 app.use(rota);
 
-app.listen('9001');
+app.listen("3333");
